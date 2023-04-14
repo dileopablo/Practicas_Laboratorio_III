@@ -1,120 +1,86 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-    background-color: mediumslateblue;
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
 }
 
-.flex-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: coral;
-
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-
-
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 10px; */
-    /* para align-self */
-    /* align-content: space-around; */
-
-    width: 50vw;
-    height: 700px;
-    margin: 0 auto;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.flex-item {
-    border: 1px solid red;
-    border-radius: 10px;
-    background-color: cadetblue;
-    /* margin: 10px; */
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    font-weight: 800;
-
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center;s */
+.lado {
+  background-color: black;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+  margin: 1em;
 }
 
+.cara-1 {
+  justify-content: center;
+  align-items: center;
+}
 
+.cara-2 {
+  justify-content: space-between;
+}
 
-/* .item-1{
-    order: 2;
-} */
+.cara-2 .punto-1 {
+  align-self: flex-end;
+}
 
-/* .item-2{
-    order: 1;
-} */
+.cara-3 {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cara-3 .punto-2 {
+  align-self: center;
+}
 
-/* .item-3{
-    order: 4;
-} */
+.cara-3 .punto-3 {
+  align-self: flex-end;
+}
 
-/* .item-4{
-    order: 3;
-} */
+.cara-4 {
+  justify-content: space-between;
+}
 
-/* .item-5{
-    order: 6;
-} */
+.cara-4 .columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-/* .item-6{
-    order:5;
-} */
+.cara-5 {
+  justify-content: space-between;
+}
 
+.cara-5 .columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.cara-5 .medio {
+  align-self: center;
+}
 
-/* .item-1 {
-    background-color: red;
-    align-self: flex-start;
-} */
+.cara-6 {
+  justify-content: space-between;
+}
 
-/* .item-2 {
-    background-color: green;
-    align-self: flex-end;
-} */
+.cara-6 .columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-
-
-/* .item-1 {
-    flex-grow: 2;
-} */
-
-/* .item-2 {
-    flex-grow: 1;
-} */
-
-/* .item-3 {
-    flex-grow: 1;
-} */
-
-/* .item-4 {
-    flex-grow: 1;
-} */
-
-/* .item-5 {
-    flex-grow: 1;
-} */
-
-/* .item-6 {
-    flex-grow: 3;
-} */
-
-
-
-
-/* .item-1 {
-    flex-shrink: 5;
-} */
-
-
-/* .item-1 {
-    flex-basis: 110px;
-} */
+.punto {
+  width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
