@@ -1,0 +1,26 @@
+dt {
+    font-weight: 600;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+  }
+
+  table caption {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+  }
+  
+  td, th {
+    padding: 8px;
+    text-align: left;
+    background-color: coral;
+    /* border: 1px solid red; */
+  }
+
+  .centered {
+    text-align: center;
+  }
