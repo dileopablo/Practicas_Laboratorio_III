@@ -206,7 +206,10 @@ footer{
 }
 
 
-
+.carousel-inner img {
+    max-height: 310px; /* ajustar la altura máxima a su preferencia */
+    object-fit: cover;
+  }
 
 
 
