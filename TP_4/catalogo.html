@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="icon" href="./img/favi.ico">
+</head>
+<body>
+    <header>
+        <h1>Peripheral Store</h1>
+    </header>
+    
+    <nav>
+        <a class="active" href="./index.html">Inicio</a>
+        <a href="./catalogo.html">Catalogo</a>
+        <a href="./informacion.html">Informacion</a>
+        <a href="./contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <h1>PRODUCTOS</h1>
+
+        <fieldset>
+
+            <legend>Filtros</legend>
+
+            <label>
+                <input type="checkbox" name="filtro" value="mouse">
+                Mouse
+            </label>
+
+            <label>
+                <input type="checkbox" name="filtro" value="teclado">
+                Teclado
+            </label>
+
+            <label>
+                <input type="checkbox" name="filtro" value="auricular">
+                Auricular
+            </label>
+
+            <label>
+                <input type="checkbox" name="filtro" value="monitor">
+                Monitor
+            </label>
+
+            <label>
+                <input type="checkbox" name="filtro" value="notebook">
+                Notebook
+            </label>
+
+            <div>
+                <label>
+                    <b>Buscar:</b> <span id="labelBuscar">Ninguno</span>
+                    <input id="buscar" type="text" name="buscar">
+                </label>
+
+            </div>
+
+        </fieldset>
+
+        <div id="contenedor_cards" class="d-flex justify-content-center align-items-center flex-wrap">
+
+        </div><!-- fin container cards -->
+
+    </div> <!-- fin container -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+        <script src="./datos.js"></script>
+        <script src="./nuevoscript.js"></script>
+
+        <footer>
+        
+            <h4>Hablemos sin saber TP4 - Peripheral Store. Todos los derechos reservados. &reg;</h4>
+        
+        </footer>
+    </body>
+</html>
